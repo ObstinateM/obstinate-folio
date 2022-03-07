@@ -29,7 +29,7 @@ export default function Nav() {
             </div>
             <ResumeButton>
                 <Tooltip content="Not available yet" placement="bottom">
-                    <Button bordered color="gradient" auto>
+                    <Button color="white" auto ghost>
                         Resume
                     </Button>
                 </Tooltip>

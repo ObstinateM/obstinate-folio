@@ -21,7 +21,7 @@ const others = [
     {
         title: 'Portfolio V2',
         buildWith: 'Three.js | React | Styled Components',
-        demo: 'https://github.com/ObstinateM/obstinate-folio'
+        github: 'https://github.com/ObstinateM/obstinate-folio'
     },
     {
         title: 'NFT Mint Front',

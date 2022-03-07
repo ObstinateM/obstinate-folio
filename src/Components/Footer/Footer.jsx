@@ -12,7 +12,7 @@ const FooterContainer = styled.div`
 export default function Footer() {
     return (
         <FooterContainer>
-            <Text h6>Made with React by Obstinate</Text>
+            <Text h6>Whether it's for a project or to chat, feel free to send me an email!</Text>
         </FooterContainer>
     );
 }
