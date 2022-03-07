@@ -20,7 +20,7 @@ const darkTheme = createTheme({
 
 const GoTop = styled.a`
     position: fixed;
-    bottom: 30px;
+    bottom: 40px;
     right: 30px;
     color: white;
 
