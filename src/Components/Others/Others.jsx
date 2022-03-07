@@ -83,12 +83,12 @@ function TableRow({ title, buildWith, demo, github }) {
             </td>
             <td>
                 {demo && (
-                    <Link href={demo}>
+                    <Link href={demo} target="_blank" rel="noreferrer">
                         <ExternalLink />
                     </Link>
                 )}
                 {github && (
-                    <Link href={github}>
+                    <Link href={github} target="_blank" rel="noreferrer">
                         <GitHub />
                     </Link>
                 )}
