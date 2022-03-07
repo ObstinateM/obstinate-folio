@@ -1,5 +1,4 @@
 import { Row, Col, Text, Button, Card, Link } from '@nextui-org/react';
-import Third from '../../third_blur.png';
 
 export default function FeaturedCard({ title, description, github, demo, image, technos }) {
     return (
@@ -21,6 +20,7 @@ export default function FeaturedCard({ title, description, github, demo, image, 
                     height={400}
                     width="100%"
                     alt="Relaxing app background"
+                    className="featured-card-image"
                 />
             </Card.Body>
             <Card.Footer

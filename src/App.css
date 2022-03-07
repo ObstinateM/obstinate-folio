@@ -5,6 +5,30 @@ body {
     background-repeat: repeat;
 }
 
-.test {
-    padding-top: 10000px;
+.html-mac {
+    position: relative;
+    margin-top: -5px;
+    width: 340px;
+    height: 220px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.html-mac > * {
+    font-size: 2rem;
+}
+
+.Typewriter {
+    padding: 15px;
+}
+
+.featured-card-image > img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 }

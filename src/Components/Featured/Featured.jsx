@@ -19,9 +19,7 @@ const myFeaturedProjects = [
         description: 'A handmade video player and video stream API',
         github: 'https://github.com/ObstinateM/video-stream',
         technos: 'React | Express',
-        // image: Second
         image: Video
-        // image: 'https://raw.githubusercontent.com/ObstinateM/video-stream/main/player.png'
     },
     {
         title: 'Twitter Clone',
@@ -43,12 +41,12 @@ const FeaturedDiv = styled.div`
 export default function Featured() {
     return (
         <>
-            <Text h2 css={{ marginBottom: '50px' }} id="work">
-                My Work
+            <Text h2 css={{ marginBottom: '50px', marginTop: '10%', marginLeft: 0 }} id="featured">
+                Featured Projects
             </Text>
             <FeaturedDiv>
                 {myFeaturedProjects.map(project => (
-                    <FeaturedCard {...project} />
+                    <FeaturedCard {...project} key={project.title} />
                 ))}
             </FeaturedDiv>
         </>

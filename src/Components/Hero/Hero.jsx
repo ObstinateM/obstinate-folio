@@ -6,11 +6,7 @@ const CenteredHero = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 30vh;
-`;
-
-const HeroDiv = styled.div`
-    width: 40%;
+    padding-top: 10%;
 `;
 
 export default function Hero() {
@@ -19,13 +15,6 @@ export default function Hero() {
             <CenteredHero>
                 <Text h1>Mathis "Obstinate" Beauville</Text>
                 <Text h3>Student in Computer Science @ Université Paris-Saclay (UEVE)</Text>
-                {/* <HeroDiv>
-                    <Text h5 color="#9E9E9E">
-                        I’m a software engineer specializing in building (and occasionally
-                        designing) exceptional digital experiences. Currently, I’m focused on
-                        building accessible, human-centered products at Upstatement.
-                    </Text>
-                </HeroDiv> */}
             </CenteredHero>
         </>
     );

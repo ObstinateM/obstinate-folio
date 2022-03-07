@@ -20,8 +20,11 @@ export default function Nav() {
                 <Link block color="text" href="#about" underline>
                     About me
                 </Link>
-                <Link block color="text" href="#work" underline>
-                    Work
+                <Link block color="text" href="#featured" underline>
+                    Featured projects
+                </Link>
+                <Link block color="text" href="#projects" underline>
+                    Others projects
                 </Link>
             </div>
             <ResumeButton>
