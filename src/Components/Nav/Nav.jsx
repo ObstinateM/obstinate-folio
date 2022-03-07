@@ -1,4 +1,4 @@
-import { Link, Button } from '@nextui-org/react';
+import { Link, Button, Tooltip } from '@nextui-org/react';
 import styled from 'styled-components';
 
 const StyledNav = styled.nav`
@@ -28,9 +28,11 @@ export default function Nav() {
                 </Link>
             </div>
             <ResumeButton>
-                <Button bordered color="gradient" auto>
-                    Resume
-                </Button>
+                <Tooltip content="Not available yet" placement="bottom">
+                    <Button bordered color="gradient" auto>
+                        Resume
+                    </Button>
+                </Tooltip>
             </ResumeButton>
         </StyledNav>
     );
