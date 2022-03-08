@@ -5,12 +5,20 @@ body {
     background-repeat: repeat;
 }
 
-.html-mac {
-    position: relative;
-    margin-top: -5px;
-    width: 340px;
-    height: 220px;
-    background-color: #000;
+/* .content {
+    width: 334px;
+    height: 223px;
+    background: #000;
+    border-radius: 3px;
+    padding: 0;
+} */
+
+.wrapper {
+    /* padding: 10px;
+    height: 432px;
+    transform: scale(0.5);
+    transform-origin: top left; */
+    /* width: 668px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,12 +26,15 @@ body {
     text-align: center;
 }
 
-.html-mac > * {
+.wrapper > * {
     font-size: 2rem;
+    font-weight: 700;
+    color: #000;
 }
 
 .Typewriter {
     padding: 15px;
+    width: 300px;
 }
 
 .featured-card-image > img {
@@ -31,4 +42,20 @@ body {
     -khtml-user-drag: none;
     -moz-user-drag: none;
     -o-user-drag: none;
+}
+
+.content,
+.content > * {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+::-moz-selection {
+    color: #fff;
+}
+
+::selection {
+    color: #fff;
 }
