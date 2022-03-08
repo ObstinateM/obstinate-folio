@@ -54,22 +54,21 @@ function Model(props) {
 
     useEffect(() => {
         let tempArr = [
-            // "Hello, I am Mathis, a computer geek who learned to code from a young age in different languages. I started to create games servers for my friends with plugins. During that time I didn't write much code but I did read a lot. I prefer to see practical uses of the concepts to assimilate them faster. In this way, I learned a lot about the concept of programming. Fast forward to 2019, I started to understand the concept of blockchain and how it works. Since then, I've been working to expand on blockchain. I recently participated in a hackaton on Gitcoin (see the Viteclout project). I am versatile, I can work in a team or lead a project alone."
             'Web 3.0',
-            `Developper for ${new Date().getFullYear() - 2015} years`
-            // 'React',
-            // 'Node.js',
-            // 'Typescript',
-            // 'Solidity',
-            // 'NPM',
-            // 'Git',
-            // 'SQL',
-            // 'Web Socket',
-            // 'JWT',
-            // 'Cypress',
-            // 'C',
-            // 'Java',
-            // 'Clean Code <3'
+            `Developper for ${new Date().getFullYear() - 2015} years`,
+            'React',
+            'Node.js',
+            'Typescript',
+            'Solidity',
+            'NPM',
+            'Git',
+            'SQL',
+            'Web Socket',
+            'JWT',
+            'Cypress',
+            'C',
+            'Java',
+            'Clean Code <3'
         ];
         shuffle(tempArr);
         setStrings(tempArr);
