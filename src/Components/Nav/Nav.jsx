@@ -5,7 +5,7 @@ const StyledNav = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 25px 1rem;
 `;
 
 const ResumeButton = styled.div`
