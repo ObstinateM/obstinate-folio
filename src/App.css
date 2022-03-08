@@ -5,20 +5,7 @@ body {
     background-repeat: repeat;
 }
 
-/* .content {
-    width: 334px;
-    height: 223px;
-    background: #000;
-    border-radius: 3px;
-    padding: 0;
-} */
-
 .wrapper {
-    /* padding: 10px;
-    height: 432px;
-    transform: scale(0.5);
-    transform-origin: top left; */
-    /* width: 668px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +20,6 @@ body {
 }
 
 .Typewriter {
-    padding: 15px;
     width: 300px;
 }
 
