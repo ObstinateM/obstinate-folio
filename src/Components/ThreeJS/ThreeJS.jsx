@@ -83,7 +83,7 @@ function Model(props) {
                         material={materials['matte.001']}
                         geometry={nodes['Cube008_1'].geometry}
                     />
-                    <mesh geometry={nodes['Cube008_2'].geometry}>
+                    <mesh geometry={nodes['Cube008_2'].geometry} material={materials['screen.001']}>
                         {/* Drei's HTML component can now "hide behind" canvas geometry */}
                         <Html
                             className="content"
