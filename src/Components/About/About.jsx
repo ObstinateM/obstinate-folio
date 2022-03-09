@@ -41,6 +41,10 @@ const ThreeJSDiv = styled.div`
     }
 `;
 
+const ColorSpan = styled.span`
+    color: #dfdfdf;
+`;
+
 export default function About() {
     return (
         <AboutSection id="about">
@@ -48,14 +52,16 @@ export default function About() {
                 <Text h2>About Me</Text>
                 <Text h4 color="#9E9E9E">
                     Hello ! I'm Mathis, a computer geek who learned to code from a young age in
-                    different languages. I started creating game servers for my friends with
-                    plugins. During that time I didn't write much code but I did read a lot. I
-                    prefer to see practical uses of the concepts to assimilate them faster. In this
-                    way, I learned a lot about the concept of programming. Fast forward to 2019, I
-                    started to understand the concept of blockchain and how it works. Since then,
-                    I've been working to expand on blockchain. I recently participated in a hackaton
-                    on Gitcoin (see the Viteclout project). I am versatile, I can work in a team or
-                    lead a project alone.
+                    different languages. I started <ColorSpan>creating game servers</ColorSpan> for
+                    my friends with plugins. During that time I didn't write much code but I did
+                    read a lot. I prefer to see <ColorSpan>practical uses</ColorSpan> of the
+                    concepts to assimilate them faster. In this way, I learned a lot about the
+                    concept of programming. Fast-forward to 2019, I started to understand the
+                    concept of
+                    <ColorSpan> blockchain</ColorSpan> and how it works. Since then, I've been
+                    working to expand on blockchain. I recently participated in a
+                    <ColorSpan> hackaton</ColorSpan> on Gitcoin (see the Viteclout project). I am
+                    <ColorSpan> versatile</ColorSpan>, I can work in a team or lead a project alone.
                 </Text>
             </AboutText>
             <ThreeJSDiv>
