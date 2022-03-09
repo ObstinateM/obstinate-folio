@@ -48,7 +48,7 @@ export default function About() {
                 <Text h2>About Me</Text>
                 <Text h4 color="#9E9E9E">
                     Hello ! I'm Mathis, a computer geek who learned to code from a young age in
-                    different languages. I started to create games servers for my friends with
+                    different languages. I started creating game servers for my friends with
                     plugins. During that time I didn't write much code but I did read a lot. I
                     prefer to see practical uses of the concepts to assimilate them faster. In this
                     way, I learned a lot about the concept of programming. Fast forward to 2019, I
