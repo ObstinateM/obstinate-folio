@@ -1,4 +1,4 @@
-import { Link, Button, Tooltip } from '@nextui-org/react';
+import { Link, Button } from '@nextui-org/react';
 import styled from 'styled-components';
 
 const StyledNav = styled.nav`
@@ -13,22 +13,18 @@ const ResumeButton = styled.div`
     justify-self: flex-end;
 `;
 
-const OpenResume = styled.div`
-    color: white;
-`;
-
 export default function Nav() {
     return (
         <StyledNav>
             <div>
                 <Link block color="text" href="#about" underline>
-                    About me
+                    About Me
                 </Link>
                 <Link block color="text" href="#featured" underline>
-                    Featured projects
+                    Featured Projects
                 </Link>
                 <Link block color="text" href="#projects" underline>
-                    Others projects
+                    Others Projects
                 </Link>
             </div>
             <ResumeButton>

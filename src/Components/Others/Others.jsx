@@ -40,7 +40,7 @@ export default function Others() {
     return (
         <>
             <Text h2 css={{ marginBottom: '50px', marginTop: '10%', marginLeft: 0 }} id="projects">
-                Others projects
+                Others Projects
             </Text>
             <Table>
                 <thead align="left">

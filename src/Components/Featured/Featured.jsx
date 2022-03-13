@@ -42,7 +42,7 @@ export default function Featured() {
     return (
         <>
             <Text h2 css={{ marginBottom: '50px', marginTop: '10%', marginLeft: 0 }} id="featured">
-                Featured projects
+                Featured Projects
             </Text>
             <FeaturedDiv>
                 {myFeaturedProjects.map(project => (
