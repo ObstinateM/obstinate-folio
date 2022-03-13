@@ -13,6 +13,10 @@ const ResumeButton = styled.div`
     justify-self: flex-end;
 `;
 
+const OpenResume = styled.div`
+    color: white;
+`;
+
 export default function Nav() {
     return (
         <StyledNav>
@@ -28,11 +32,11 @@ export default function Nav() {
                 </Link>
             </div>
             <ResumeButton>
-                <Tooltip content="Not available yet" placement="bottom">
-                    <Button color="white" auto ghost>
-                        Resume
-                    </Button>
-                </Tooltip>
+                {/* <Tooltip content="Not available yet" placement="bottom"> */}
+                <Button color="white" auto ghost as="a" href="/CV.pdf" target="_blank">
+                    Resume
+                </Button>
+                {/* </Tooltip> */}
             </ResumeButton>
         </StyledNav>
     );
