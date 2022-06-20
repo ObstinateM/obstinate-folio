@@ -19,6 +19,10 @@ const Link = styled.a`
 
 const others = [
     {
+        title: 'Super move TUI',
+        buildWith: 'Golang | Gocui'
+    },
+    {
         title: 'Portfolio V2',
         buildWith: 'Three.js | React | Styled Components',
         github: 'https://github.com/ObstinateM/obstinate-folio'
@@ -63,7 +67,7 @@ export default function Others() {
                     </tr>
                 </thead>
                 <tbody>
-                    {others.map(other => (
+                    {others.map((other) => (
                         <TableRow {...other} />
                     ))}
                 </tbody>
