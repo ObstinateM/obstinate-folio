@@ -20,7 +20,9 @@ const Link = styled.a`
 const others = [
     {
         title: 'Super move TUI',
-        buildWith: 'Golang | Gocui'
+        buildWith: 'Golang | Gocui',
+        github: 'https://github.com/ObstinateM/smv',
+        demo: 'https://github.com/ObstinateM/smv'
     },
     {
         title: 'Portfolio V2',
