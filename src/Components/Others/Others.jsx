@@ -19,6 +19,23 @@ const Link = styled.a`
 
 const others = [
     {
+        title: 'Viteclout',
+        github: 'https://github.com/Mine2Earn/ViteClout',
+        demo: 'https://viteclout.ekazuki.fr',
+        buildWith: 'React | TypeScript | Solidity++'
+    },
+    {
+        title: 'Video Streaming',
+        github: 'https://github.com/ObstinateM/video-stream',
+        buildWith: 'React | Express'
+    },
+    {
+        title: 'Twitter Clone',
+        github: 'https://github.com/ObstinateM/obstinate-social-media',
+        demo: 'https://social.obstinate.fr',
+        buildWith: 'Web Socket | JWT | SQL'
+    },
+    {
         title: 'Super Move TUI',
         buildWith: 'Golang | Gocui',
         github: 'https://github.com/ObstinateM/smv',

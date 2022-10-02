@@ -54,7 +54,8 @@ function Model(props) {
             'Java',
             'Clean Code <3',
             'Golang',
-            'Docker'
+            'Docker',
+            'Vim Enthusiast'
         ];
         shuffle(tempArr);
         setStrings(tempArr);

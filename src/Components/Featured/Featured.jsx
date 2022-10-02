@@ -11,14 +11,14 @@ const myFeaturedProjects = [
         description: 'A web 3.0 social media DAPP',
         github: 'https://github.com/Mine2Earn/ViteClout',
         demo: 'https://viteclout.ekazuki.fr',
-        technos: 'React | TypeScript | Solidity++',
+        buildWidth: 'React | TypeScript | Solidity++',
         image: Viteclout
     },
     {
         title: 'Video Streaming',
         description: 'A handmade video player and video stream API',
         github: 'https://github.com/ObstinateM/video-stream',
-        technos: 'React | Express',
+        buildWidth: 'React | Express',
         image: Video
     },
     {
@@ -26,7 +26,7 @@ const myFeaturedProjects = [
         description: 'Handmade Auth, live chat and a full CRUD API',
         github: 'https://github.com/ObstinateM/obstinate-social-media',
         demo: 'https://social.obstinate.fr',
-        technos: 'Web Socket | JWT | SQL',
+        buildWidth: 'Web Socket | JWT | SQL',
         image: Social
     }
 ];
@@ -45,7 +45,7 @@ export default function Featured() {
                 Featured Projects
             </Text>
             <FeaturedDiv>
-                {myFeaturedProjects.map(project => (
+                {myFeaturedProjects.map((project) => (
                     <FeaturedCard {...project} key={project.title} />
                 ))}
             </FeaturedDiv>
