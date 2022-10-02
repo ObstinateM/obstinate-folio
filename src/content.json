@@ -1,0 +1,84 @@
+{
+    "featured": [
+        {
+            "title": "Viteclout",
+            "description": "A web 3.0 social media DAPP",
+            "github": "https://github.com/Mine2Earn/ViteClout",
+            "demo": "https://viteclout.ekazuki.fr",
+            "buildWidth": "React | TypeScript | Solidity++"
+        },
+        {
+            "title": "Video Streaming",
+            "description": "A handmade video player and video stream API",
+            "github": "https://github.com/ObstinateM/video-stream",
+            "buildWidth": "React | Express"
+        },
+        {
+            "title": "Twitter Clone",
+            "description": "Handmade Auth, live chat and a full CRUD API",
+            "github": "https://github.com/ObstinateM/obstinate-social-media",
+            "demo": "https://social.obstinate.fr",
+            "buildWidth": "Web Socket | JWT | SQL"
+        }
+    ],
+    "others": [
+        {
+            "title": "Viteclout",
+            "github": "https://github.com/Mine2Earn/ViteClout",
+            "demo": "https://viteclout.ekazuki.fr",
+            "buildWith": "React | TypeScript | Solidity++"
+        },
+        {
+            "title": "Video Streaming",
+            "github": "https://github.com/ObstinateM/video-stream",
+            "buildWith": "React | Express"
+        },
+        {
+            "title": "Twitter Clone",
+            "github": "https://github.com/ObstinateM/obstinate-social-media",
+            "demo": "https://social.obstinate.fr",
+            "buildWith": "Web Socket | JWT | SQL"
+        },
+        {
+            "title": "Super Move TUI",
+            "buildWith": "Golang | Gocui",
+            "github": "https://github.com/ObstinateM/smv",
+            "demo": "https://github.com/ObstinateM/smv"
+        },
+        {
+            "title": "Portfolio V2",
+            "buildWith": "Three.js | React | Styled Components",
+            "github": "https://github.com/ObstinateM/obstinate-folio"
+        },
+        {
+            "title": "NFT Mint Front",
+            "buildWith": "React | Ethers.js",
+            "demo": "https://nft.obstinate.fr/",
+            "github": "https://github.com/ObstinateM/nft-first-front"
+        },
+        {
+            "title": "NFT Smart Contract",
+            "buildWith": "Solidity | Hardhat",
+            "github": "https://github.com/ObstinateM/nft-first-contract"
+        }
+    ],
+    "tech": [
+        "Web 3.0",
+        "React",
+        "Node.js",
+        "Typescript",
+        "Solidity",
+        "NPM",
+        "Git",
+        "SQL",
+        "Web Socket",
+        "JWT",
+        "Cypress",
+        "C",
+        "Java",
+        "Clean Code <3",
+        "Golang",
+        "Docker",
+        "Vim Enthusiast"
+    ]
+}

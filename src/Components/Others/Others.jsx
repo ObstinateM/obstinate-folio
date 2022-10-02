@@ -1,6 +1,7 @@
 import { Text } from '@nextui-org/react';
 import styled from 'styled-components';
 import { ExternalLink, GitHub } from 'react-feather';
+import content from '../../content.json';
 
 const Table = styled.table`
     border-collapse: collapse;
@@ -16,48 +17,6 @@ const Link = styled.a`
         color: #94f9f0;
     }
 `;
-
-const others = [
-    {
-        title: 'Viteclout',
-        github: 'https://github.com/Mine2Earn/ViteClout',
-        demo: 'https://viteclout.ekazuki.fr',
-        buildWith: 'React | TypeScript | Solidity++'
-    },
-    {
-        title: 'Video Streaming',
-        github: 'https://github.com/ObstinateM/video-stream',
-        buildWith: 'React | Express'
-    },
-    {
-        title: 'Twitter Clone',
-        github: 'https://github.com/ObstinateM/obstinate-social-media',
-        demo: 'https://social.obstinate.fr',
-        buildWith: 'Web Socket | JWT | SQL'
-    },
-    {
-        title: 'Super Move TUI',
-        buildWith: 'Golang | Gocui',
-        github: 'https://github.com/ObstinateM/smv',
-        demo: 'https://github.com/ObstinateM/smv'
-    },
-    {
-        title: 'Portfolio V2',
-        buildWith: 'Three.js | React | Styled Components',
-        github: 'https://github.com/ObstinateM/obstinate-folio'
-    },
-    {
-        title: 'NFT Mint Front',
-        buildWith: 'React | Ethers.js',
-        demo: 'https://nft.obstinate.fr/',
-        github: 'https://github.com/ObstinateM/nft-first-front'
-    },
-    {
-        title: 'NFT Smart Contract',
-        buildWith: 'Solidity | Hardhat',
-        github: 'https://github.com/ObstinateM/nft-first-contract'
-    }
-];
 
 export default function Others() {
     return (
@@ -86,8 +45,8 @@ export default function Others() {
                     </tr>
                 </thead>
                 <tbody>
-                    {others.map((other) => (
-                        <TableRow {...other} />
+                    {content.others.map((other) => (
+                        <TableRow {...other} key={other.title} />
                     ))}
                 </tbody>
             </Table>
