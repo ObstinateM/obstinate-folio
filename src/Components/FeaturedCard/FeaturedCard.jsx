@@ -1,9 +1,17 @@
 import { Row, Col, Text, Button, Card, Link } from '@nextui-org/react';
+import styled from 'styled-components';
 
-export default function FeaturedCard({ title, description, github, demo, image, buildWidth }) {
+const HorizontalConter = styled.div`
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+export default function FeaturedCard({ title, description, github, demo, image, buildWith }) {
     return (
         <Card cover css={{ w: '400px', marginBottom: '50px' }}>
-            <Card.Header css={{ position: 'absolute', zIndex: 1, top: 5 }}>
+            <Card.Header>
                 <Col>
                     <Text h2 color="white">
                         {title}
@@ -14,24 +22,24 @@ export default function FeaturedCard({ title, description, github, demo, image, 
                 </Col>
             </Card.Header>
             <Card.Body>
-                <Card.Image objectFit="cover" src={image} height={400} width="100%" alt="Relaxing app background" className="featured-card-image" />
+                <HorizontalConter>
+                    <Card.Image
+                        objectFit="cover"
+                        src={image ?? 'https://github.com/nextui-org/nextui/blob/next/apps/docs/public/nextui-banner.jpeg?raw=true'}
+                        height="auto"
+                        width="100%"
+                        alt="Relaxing app background"
+                        className="featured-card-image"
+                    />
+                </HorizontalConter>
             </Card.Body>
-            <Card.Footer
-                blur
-                css={{
-                    position: 'absolute',
-                    bgBlur: '#0f1114',
-                    borderTop: '$borderWeights$light solid $gray700',
-                    bottom: 0,
-                    zIndex: 1
-                }}
-            >
+            <Card.Footer blur>
                 <Row>
                     <Col>
                         <Row>
                             <Col>
                                 <Text size={12} color="#9E9E9E">
-                                    {buildWidth}
+                                    {buildWith}
                                 </Text>
                                 <Link color="text" size={12} underline href={github} target="_blank">
                                     Source code

@@ -1,33 +1,21 @@
 {
     "featured": [
         {
-            "title": "Viteclout",
-            "description": "A web 3.0 social media DAPP",
-            "github": "https://github.com/Mine2Earn/ViteClout",
-            "demo": "https://viteclout.ekazuki.fr",
-            "buildWidth": "React | TypeScript | Solidity++"
+            "title": "Super Move TUI",
+            "image": "https://camo.githubusercontent.com/ba38f8856aaa6243b07b0ff7b4d7b3b9e4d9f044edc17e67d50330630cb23d4a/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3439353636333136353339333230373330362f3938333835353738303330303232363634302f416e696d6174696f6e2e676966",
+            "github": "https://github.com/ObstinateM/smv",
+            "demo": "https://github.com/ObstinateM/smv",
+            "buildWith": "Golang | Gocui"
         },
         {
-            "title": "Video Streaming",
-            "description": "A handmade video player and video stream API",
-            "github": "https://github.com/ObstinateM/video-stream",
-            "buildWidth": "React | Express"
-        },
-        {
-            "title": "Twitter Clone",
-            "description": "Handmade Auth, live chat and a full CRUD API",
-            "github": "https://github.com/ObstinateM/obstinate-social-media",
-            "demo": "https://social.obstinate.fr",
-            "buildWidth": "Web Socket | JWT | SQL"
-        }
-    ],
-    "others": [
-        {
             "title": "Viteclout",
+            "image": "https://ekazuki.fr/viteclout-white.png",
             "github": "https://github.com/Mine2Earn/ViteClout",
             "demo": "https://viteclout.ekazuki.fr",
             "buildWith": "React | TypeScript | Solidity++"
-        },
+        }
+    ],
+    "others": [
         {
             "title": "Video Streaming",
             "github": "https://github.com/ObstinateM/video-stream",
@@ -38,12 +26,6 @@
             "github": "https://github.com/ObstinateM/obstinate-social-media",
             "demo": "https://social.obstinate.fr",
             "buildWith": "Web Socket | JWT | SQL"
-        },
-        {
-            "title": "Super Move TUI",
-            "buildWith": "Golang | Gocui",
-            "github": "https://github.com/ObstinateM/smv",
-            "demo": "https://github.com/ObstinateM/smv"
         },
         {
             "title": "Portfolio V2",
