@@ -22,6 +22,7 @@ export default function FeaturedCard({ title, description, github, demo, image, 
                     </Text>
                 </Col>
             </Card.Header>
+            <Card.Divider />
             <Card.Body>
                 <HorizontalConter>
                     <Card.Image
@@ -29,7 +30,7 @@ export default function FeaturedCard({ title, description, github, demo, image, 
                         src={image ?? 'https://github.com/nextui-org/nextui/blob/next/apps/docs/public/nextui-banner.jpeg?raw=true'}
                         height="auto"
                         width="100%"
-                        alt="Relaxing app background"
+                        alt={`${title} image`}
                         className="featured-card-image"
                     />
                 </HorizontalConter>

@@ -1,6 +1,13 @@
 {
     "featured": [
         {
+            "title": "Univ Schedule",
+            "image": "https://camo.githubusercontent.com/a6e954afe20618f84ecee82eb83856785973ddeeb08e2198a9e2cea73cd8a67e/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3631383430303638313438383934313035392f313031363636363933323432383134383736372f756e6b6e6f776e2e706e67",
+            "github": "https://github.com/ObstinateM/vt-plus-plus",
+            "demo": "https://edt.obstinate.fr",
+            "buildWith": "TypeScript | React | iCal Parsing"
+        },
+        {
             "title": "Super Move TUI",
             "image": "https://camo.githubusercontent.com/ba38f8856aaa6243b07b0ff7b4d7b3b9e4d9f044edc17e67d50330630cb23d4a/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3439353636333136353339333230373330362f3938333835353738303330303232363634302f416e696d6174696f6e2e676966",
             "github": "https://github.com/ObstinateM/smv",
