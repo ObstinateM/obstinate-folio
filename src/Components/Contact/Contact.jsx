@@ -30,11 +30,7 @@ export default function Contact() {
             <a href="https://github.com/ObstinateM" target="_blank" rel="noreferrer">
                 <GitHub />
             </a>
-            <a
-                href="https://www.linkedin.com/in/mathis-beauville-855040228/"
-                target="_blank"
-                rel="noreferrer"
-            >
+            <a href="https://www.linkedin.com/in/mathis-beauville" target="_blank" rel="noreferrer">
                 <Linkedin />
             </a>
             <a href="mailto:mathis.beauville@gmail.com">
