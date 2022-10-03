@@ -1,5 +1,7 @@
 import { Row, Col, Text, Button, Card, Link } from '@nextui-org/react';
 import styled from 'styled-components';
+import './FeaturedCard.css';
+import fallback from '../../fallback.jpeg';
 
 const HorizontalConter = styled.div`
     height: 100%;
@@ -24,14 +26,7 @@ export default function FeaturedCard({ title, description, github, demo, image, 
             <Card.Divider />
             <Card.Body>
                 <HorizontalConter>
-                    <Card.Image
-                        objectFit="cover"
-                        src={image ?? 'https://github.com/nextui-org/nextui/blob/next/apps/docs/public/nextui-banner.jpeg?raw=true'}
-                        height="auto"
-                        width="100%"
-                        alt={`${title} image`}
-                        className="featured-card-image"
-                    />
+                    <Card.Image objectFit="cover" src={image ?? fallback} height="auto" width="100%" alt={`${title} image`} className="filter" />
                 </HorizontalConter>
             </Card.Body>
             <Card.Divider />
