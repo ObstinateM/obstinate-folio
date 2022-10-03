@@ -8,6 +8,10 @@ const StyledNav = styled.nav`
     padding: 25px 1rem;
 `;
 
+const RightNav = styled.div`
+    display: flex;
+`;
+
 const ResumeButton = styled.div`
     margin-left: auto;
     justify-self: flex-end;
@@ -16,7 +20,7 @@ const ResumeButton = styled.div`
 export default function Nav() {
     return (
         <StyledNav>
-            <div>
+            <RightNav>
                 <Link block color="text" href="#about" underline>
                     About Me
                 </Link>
@@ -26,7 +30,7 @@ export default function Nav() {
                 <Link block color="text" href="#projects" underline>
                     Others Projects
                 </Link>
-            </div>
+            </RightNav>
             <ResumeButton>
                 {/* <Tooltip content="Not available yet" placement="bottom"> */}
                 <Button color="white" auto ghost as="a" href="/CV.pdf" target="_blank">
