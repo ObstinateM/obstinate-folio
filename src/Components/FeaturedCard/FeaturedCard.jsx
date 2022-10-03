@@ -8,7 +8,6 @@ const HorizontalConter = styled.div`
     align-items: center;
 `;
 
-// TODO: remove the fucking border radius & change the default image
 export default function FeaturedCard({ title, description, github, demo, image, buildWith }) {
     return (
         <Card cover css={{ w: '400px', marginBottom: '50px', bgColor: '#3a1a9a' }}>
