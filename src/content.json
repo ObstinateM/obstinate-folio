@@ -16,7 +16,7 @@
         },
         {
             "title": "Viteclout",
-            "image": "https://ekazuki.fr/viteclout-white.png",
+            "image": "https://cdn.discordapp.com/attachments/599257495340449793/1042158177103384648/viteclout-white.png",
             "github": "https://github.com/Mine2Earn/ViteClout",
             "demo": "https://viteclout.ekazuki.fr",
             "buildWith": "React | TypeScript | Solidity++"
