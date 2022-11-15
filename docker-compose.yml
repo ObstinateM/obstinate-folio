@@ -1,0 +1,8 @@
+version: '3'
+services:
+    obsti-folio:
+        image: docker.obstinate.fr/obsti-folio
+        container_name: obsti-folio
+        ports:
+            - 3000:80
+        restart: unless-stopped
