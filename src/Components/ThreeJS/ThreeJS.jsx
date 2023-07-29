@@ -1,7 +1,7 @@
-import * as THREE from 'three';
-import React, { Suspense, useEffect, useRef, useState } from 'react';
+import { ContactShadows, Html, OrbitControls, useGLTF } from '@react-three/drei';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { Html, Environment, useGLTF, ContactShadows, OrbitControls } from '@react-three/drei';
+import React, { Suspense, useEffect, useRef, useState } from 'react';
+import * as THREE from 'three';
 import Typewriter from 'typewriter-effect';
 import content from '../../content.json';
 
@@ -84,7 +84,6 @@ export default function ThreeJS() {
                 <group rotation={[0, Math.PI, 0]}>
                     <Model />
                 </group>
-                <Environment preset="city" />
             </Suspense>
             <ContactShadows rotation-x={Math.PI / 2} position={[0, -4.5, 0]} opacity={1} width={20} height={20} blur={2} far={4.5} />
             <OrbitControls enablePan={false} enableZoom={false} minPolarAngle={Math.PI / 2} maxPolarAngle={Math.PI / 2} />
