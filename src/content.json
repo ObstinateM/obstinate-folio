@@ -18,7 +18,6 @@
             "title": "Viteclout",
             "image": "https://cdn.discordapp.com/attachments/599257495340449793/1042158177103384648/viteclout-white.png",
             "github": "https://github.com/Mine2Earn/ViteClout",
-            "demo": "https://viteclout.ekazuki.fr",
             "buildWith": "React | TypeScript | Solidity++"
         }
     ],
@@ -31,7 +30,6 @@
         {
             "title": "Twitter Clone",
             "github": "https://github.com/ObstinateM/obstinate-social-media",
-            "demo": "https://social.obstinate.fr",
             "buildWith": "Web Socket | JWT | SQL"
         },
         {

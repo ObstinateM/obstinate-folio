@@ -1,7 +1,7 @@
-import { Row, Col, Text, Button, Card, Link } from '@nextui-org/react';
+import { Button, Card, Col, Link, Row, Text } from '@nextui-org/react';
 import styled from 'styled-components';
-import './FeaturedCard.css';
 import fallback from '../../fallback.jpeg';
+import './FeaturedCard.css';
 
 const HorizontalConter = styled.div`
     height: 100%;
@@ -57,7 +57,7 @@ export default function FeaturedCard({ title, description, github, demo, image, 
                             ) : (
                                 <Button flat auto rounded css={{ color: '#94f9f0', bg: '#94f9f026' }} disabled>
                                     <Text css={{ color: 'inherit' }} size={12} weight="bold" transform="uppercase">
-                                        Coming soon
+                                        No demo available
                                     </Text>
                                 </Button>
                             )}
